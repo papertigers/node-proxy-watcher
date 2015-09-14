@@ -27,8 +27,6 @@ http {
 
     #gzip  on;
 
-    include /etc/nginx/conf.d/*.conf;
-
 	upstream app {
 	<% if (services.length) { %>
 		<% services.forEach(function (service) { %>
