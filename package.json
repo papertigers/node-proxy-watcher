@@ -1,0 +1,16 @@
+{
+  "name": "proxy-watcher",
+  "version": "1.0.0",
+  "description": "Auto manage an nginx proxy via consul",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Zeller",
+  "license": "MIT",
+  "dependencies": {
+    "consul": "^0.18.0",
+    "deep-equal": "^1.0.1",
+    "ejs": "^2.3.4"
+  }
+}
